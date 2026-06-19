@@ -27,3 +27,7 @@ Build:
 ```
 cargo build --release
 ```
+
+### Debug
+
+Hypr_handled uses the `log4rs` crate as a logging backend, and you can find the log file at `/tmp/hypr_handled/logs/`.
